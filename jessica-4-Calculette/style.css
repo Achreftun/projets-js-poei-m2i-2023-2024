@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.calculette{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.pad{
+    margin:2px;
+    padding: 2px;
+}
+.operateur{
+    display: flex;
+    flex-direction:column;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+}
+.fa-circle{
+    font-size: 3px;
+}
+.full-width-button {
+    width: 100%;
+    height: 50px; /* Ajoutez un padding si nécessaire */
+    margin-top: 1px;
+}
+.w-10{
+    width: 12%;
+}

@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+     <div>
+      <h1 class="title">Calculatrice<h1>
+      <table>
+        <tr>
+          <td colspan="4"  id="case">
+            <span id="resultat"></span>
+          </td>
+        </tr>
+     </table>
+     
+       <div id="Pave" >
+        <div id="FirstRow">
+           <input class="number" type="button" value="1" id="button-1" onclick="button('1')"/>
+         
+         
+           <input class="number" type="button" value="2" id="button-2" onclick="button('2')"/>
+         
+         
+           <input class="number" type="button" value="3" id="button-3" onclick="button('3')"/>
+         
+         
+           <input class="operator" type="button" value="C" id="button-C" onclick="buttonClean()"/>
+        </div>
+       
+
+       
+         <div id="SecondRow">
+           <input class="number" type="button" value="4" id="button-4" onclick="button('4')"/>
+         
+         
+           <input class="number" type="button" value="5" id="button-5" onclick="button('5')"/>
+         
+         
+           <input class="number" type="button" value="6" id="button-6" onclick="button('6')"/>
+         
+         
+           <input class="operator" type="button" value="+" id="button-+" onclick="buttonPlus()"/>
+         </div>
+       
+
+       
+         <div id="ThirdRow">
+           <input class="number" type="button" value="7" id="button-7" onclick="button('7')"/>
+         
+         
+           <input class="number" type="button" value="8" id="button-8" onclick="button('8')"/>
+         
+         
+           <input class="number" type="button" value="9" id="button-9" onclick="button('9')"/>
+         
+         
+           <input class="operator" type="button" value="-" id="button--" onclick="buttonLess()"/>
+         </div>
+       
+
+       
+         <div id="FourthRow">
+           <input class="operator" type="button" value="x" id="button-*" onclick="buttonMultiply()"/>
+         
+         
+           <input class="number"type="button" value="0" id="button-0" onclick="button('0')"/>
+         
+         
+           <input class="operator" type="button" value="÷" id="button-/" onclick="buttonDivision()"/>
+         
+         
+           <input class="operator" type="button" value="=" id="button-=" onclick="buttonEgal()"/>
+         </div>
+       </div>
+
+     
+    </div>
+
+  </body>
+</html>
